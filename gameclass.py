@@ -16,7 +16,10 @@ class snakesprite(pygame.sprite.Sprite):
         else:
             self.length = 20
 
-    def snakemove(self):
+    def snakemove(self, keystring):
+
+    def snakeblit(self):
+
 
 
 

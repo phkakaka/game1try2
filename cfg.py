@@ -1,7 +1,7 @@
 import os
 
 FPS = 24
-ScreenInfo = (600, 400)
+ScreenInfo = (800, 600)
 imageLib = {
     'apple': os.path.join(os.getcwd(), 'resources/images/apple.jpg'),
     'back': os.path.join(os.getcwd(), 'resources/images/back.png'),
