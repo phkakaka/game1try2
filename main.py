@@ -39,7 +39,12 @@ def SnakeMain(img_snake=None):
             snake.snakemove('right')
         elif keypressed[pygame.K_w] or keypressed[pygame.K_UP]:
             snake.snakemove('up')
-        elif
+        elif keypressed[pygame.K_s] or keypressed[pygame.K_DOWN]:
+            snake.snakemove('down')
+
+        snake.foodcheck()
+
+        snake.snakeupdate()
 
         clock.tick(cfg.FPS)
         pygame.display.update()
